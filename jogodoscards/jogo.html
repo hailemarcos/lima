@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="jogo.css">
+        <script src="./jogo.js"></script>
+        <title>Document</title>
+    </head>
+    <body id="body">
+        <h1 id="Titulo">Questionário Sobre a Série Vikings</h1><br>
+       
+        
+        <section  id="secao1">
+            <div id="card1">
+                <h1>1°)Qual o nome desse Personagem?</h1>
+                
+                
+                
+                <img id="" src="imagens/images.jpg" id="imagem1" alt=""><br>
+                
+                <input type="radio" name="Sigurd" id="1primeira_alternativa">
+                Ivar
+                <input type="radio" name="Sigurd" id="1segunda_alternativa">
+                Ubbe
+                <input type="radio" name="Sigurd" id="1terceira_alternativa">
+                Sigurd <br>
+                <button onclick="verificar_resposta1()"  id="responder">Enviar resposta</button><br>
+                resultado :<span id="saida_pergunta1"></span>
+                
+            </div>
+            
+            
+            
+            <div id="card2">
+                <h1>2°)Na Série,Qual desses foi considerado o maior rei da Noruega?</h1>
+                <div id="imagens">
+                    card2
+                    <img src="./imagens/ragnar_rollo_ivar.jpg" id="imagem2" alt="">
+                </div>
+                <input type="radio" name="Ragnar" id="2primeira_alternativa">
+                Ragnar
+                <input type="radio" name="Ragnar" id="2segunda_alternativa">
+                Rollo
+                <input type="radio" name="Ragnar" id="2terceira_alternativa">
+                Ivar <br>
+                <button id="responder" onclick="verificar_resposta2()">Enviar Resposta</button> <br>
+                resultado :<span id="saida_pergunta2"></span>
+            </div>
+            
+            <div id="card3">
+                <h1>3°)Qual o nome desse Personagem?</h1>
+                <div id="imagens">
+                    card3
+                    <img id="" src="imagens/rei desconhecido.jpg" alt=""><br>
+                </div>
+                <input type="radio" name="Rei Aelle" id="3primeira_alternativa">
+                Rei Athelstan
+                <input type="radio" name="Rei Aelle" id="3segunda_alternativa">
+                Rei Aelle
+                <input type="radio" name="Rei Aelle" id="3terceira_alternativa">
+                Rei Bjorn <br>
+                <button onclick="verificar_resposta3()" id="responder">Enviar resposta</button><br>
+                resultado :<span id="saida_pergunta3"></span>
+            </div>
+            
+            
+            
+            
+            <div id="card4">
+                <h1>4°)Qual o Nome deste Personagem?</h1>
+                <div id="imagens">
+                    card4
+                    <img src="./imagens/personagem misterioso.jpg" alt="">
+                </div>
+                <input type="radio" name="O Vidente" id="4primeira_alternativa">
+                O Vidente
+                <input type="radio" name="O Vidente" id="4segunda_alternativa">
+                O Deformado
+                <input type="radio" name="O Vidente" id="4terceira_alternativa">
+                O Sem Olhos <br>
+                
+                <button onclick="verificar_resposta4()" id="responder">Enviar resposta</button><br>
+                resultado :<span id="saida_pergunta4"></span>
+            </div>
+            
+            
+            
+            
+            <div id="card5">
+                <h1>5°) Na Série,Quantos Filhos Ragnar lothbrok teve ao todo?</h1><br>
+                <div id="imagens">
+                    card5
+                    <img src="./imagens/ragnar.jpg" alt="">
+                </div>
+                <input type="radio" name="6 Filhos" id="5primeira_alternativa">
+                4 Filhos
+                <input type="radio" name="6 Filhos" id="5segunda_alternativa">
+                5 Filhos
+                <input type="radio" name="6 Filhos" id="5terceira_alternativa">
+                6 Filhos <br>
+                
+                <button onclick="verificar_resposta5()" id="responder">Enviar resposta</button><br>
+                resultado :<span id="saida_pergunta5"></span>
+            </div>
+            
+            
+            
+        </div>
+        <div id="card6">
+            <h1>6°)Qual o Nome e Alcunha deste personagem?</h1>
+            <div id="imagens">
+                card6
+                <img src="./imagens/imagem da lagherta.jpg" alt="">
+            </div>
+            <input type="radio" name="Lagherta" id="6primeira_alternativa">
+            Lagherta a Dama do Escudo
+            <input type="radio" name="Lagherta" id="6segunda_alternativa">
+            Ingrid a Dama da Espada
+            <input type="radio" name="Lagherta" id="6terceira_alternativa">
+            Astrid a Dama Rubra<br>
+            
+            <button onclick="verificar_resposta6()" id="responder">Enviar resposta</button><br>
+            resultado :<span id="saida_pergunta6"></span>
+        </div>
+        
+        
+    </div>
+    <div id="card7">
+        <h1>7°)Qual o Nome deste Personagem?</h1>
+        <div id="imagens">
+            card7
+            <img src="./imagens/ubbe.jpg" alt="">
+        </div>
+        <input type="radio" name="Ubbe" id="7primeira_alternativa">
+        Ubbe
+        <input type="radio" name="Ubbe" id="7segunda_alternativa">
+        Bjorn
+        <input type="radio" name="Ubbe" id="7terceira_alternativa">
+        Athelstan <br>
+        
+        <button onclick="verificar_resposta7()" id="responder">Enviar resposta</button><br>
+        resultado :<span id="saida_pergunta7"></span>
+    </div>
+    
+    <div id="card8">
+        <h1>8°)Qual o Nome e Alcunha desse Personagem?</h1>
+        <div id="imagens">
+            card8
+            <img src="./imagens/Bjorn.jpg" alt="">
+        </div>
+        <input type="radio" name="Bjorn Ironside" id="8primeira_alternativa">
+        Alfred Hands of Iron
+        <input type="radio" name="Bjorn Ironside" id="8segunda_alternativa">
+        Bjorn Ironside
+        <input type="radio" name="Bjorn Ironside" id="8terceira_alternativa">
+        Ecbert O Temivel <br>
+        
+        <button onclick="verificar_resposta8()" id="responder">Enviar resposta</button><br>
+        resultado :<span id="saida_pergunta8"></span>
+    </div>
+    <div id="card9">
+        <h1>9°)Qual o Nome e Alcunha desse Personagem?</h1>
+        <div id="imagens">
+            card9
+            <img src="./imagens/Floki.jpg" alt="">
+        </div>
+        <input type="radio" name="Floki O Louco" id="9primeira_alternativa">
+        Floki O Louco
+        <input type="radio" name="Floki O Louco" id="9segunda_alternativa">
+        Ivar o Desossado
+        <input type="radio" name="Floki O Louco" id="9terceira_alternativa">
+        Rollo o Traidor
+        <br>
+        
+        <button onclick="verificar_resposta9()" id="responder">Enviar resposta</button><br>
+        resultado :<span id="saida_pergunta9"></span>
+    </div>
+    <div id="card10">
+        <h1>10°)Qual Destes Personagens foi Filha de Ragnar Lothbrok?</h1>
+        <div id="imagens">
+            card10
+            <img src="./imagens/vikings 3 meninas.png" alt="">
+        </div>
+        <input type="radio" name="2°)Gyda lothbrok" id="10primeira_alternativa">
+        1°)Poruun lothbrok
+        <input type="radio" name="2°)Gyda lothbrok" id="10segunda_alternativa">
+        2°)Gyda lothbrok
+        <input type="radio" name="2°)Gyda lothbrok" id="10terceira_alternativa">
+        Ingrid lothbrok <br>
+        
+        <button onclick="verificar_resposta10()" id="responder">Enviar resposta</button><br>
+        resultado :<span id="saida_pergunta10"></span>
+    </div>
+    <div id="card11">
+        <h1>11°)Qual o Nome deste Personagem?</h1>
+        <div id="imagens">
+            card11
+            <img src="./imagens/Athelstan.jpg" alt="">
+        </div>
+        <input type="radio" name="Athelstan" id="11primeira_alternativa">
+        Ecbert
+        <input type="radio" name="Athelstan" id="11segunda_alternativa">
+        Victor
+        <input type="radio" name="Athelstan" id="11terceira_alternativa">
+        Athelstan <br>
+        
+        
+        <button onclick="verificar_resposta11()" id="responder">Enviar resposta</button><br>
+        resultado :<span id="saida_pergunta11"></span>
+    </div>
+    <div id="card12">
+        <h1>12°)Qual o Nome deste Personagem?</h1>
+        <div id="imagens">
+            card12
+            <img src="./imagens/bispo.jpg" alt="">
+        </div>
+        <input type="radio" name="Bispo Heahmund" id="12primeira_alternativa">
+        Bispo Heahmund
+        <input type="radio" name="Bispo Heahmund" id="12segunda_alternativa">
+        Horik
+        <input type="radio" name="Bispo Heahmund" id="12terceira_alternativa">
+        Harl Borg <br>
+        
+        <button onclick="verificar_resposta12()" id="responder">Enviar resposta</button><br>
+        resultado :<span id="saida_pergunta12"></span>
+    </div>
+    
+    <h1 id="pontuaçao">Pontuação = </h1><span id="saida_pontuaçao"></span>
+</section>  
+
+
+
+
+
+</body>
+</html>

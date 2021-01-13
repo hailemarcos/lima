@@ -1,0 +1,60 @@
+#card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8,#card9,#card10,#card11,#card12{
+background-color: rgb(241, 69, 69);
+width: 600px;
+height: 450px;
+text-align: center;
+align-content: center;
+margin: 70px;
+border-radius: 5%;
+}
+#secao1{
+    background-color: brown;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px;
+    background-image: url(./imagens/ruunas.png );
+    
+}
+
+#imagens{
+    text-align: center;
+    
+}
+#Titulo{
+    color: rgb(255, 0, 0);
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+#body{
+    background-color: brown;
+    width: 2000px;
+    height: 100%;
+    text-align: center;
+    background-image: url(./imagens/simbolo.png);
+    
+    
+    
+}
+#pontuaçao{
+    color: rgb(255, 0, 0);
+    height: 200px;
+    text-align: center;
+    font-size:100px;
+
+}
+#responder{
+text-align: center;
+align-content: center;
+}
+#saida_pontuaçao{
+    text-align: left;
+    color: red;
+    font-size: 100px
+    
+}
