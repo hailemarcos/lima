@@ -1,0 +1,95 @@
+@media only screen and (max-width:1024px){
+
+    #card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8,#card9,#card10,#card11,#card12{
+        background-color: rgb(99, 19, 19);
+        width: 615px;
+        height: 375px;
+        text-align: center;
+        align-content: center;
+        margin:0%;
+        border-radius: 5%;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        box-shadow: rgb(128, 19, 19) 10px 10px 10px;
+        margin: 10px;
+    }
+    #secao1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(227, 241, 32);
+        height: 100%;
+        width: 150%;
+        align-items: center;
+        background-image: url(./imagens/ruunas.png );
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+        box-shadow: rgb(255, 255, 255) 20px 20px 20px;
+        border-radius: 20px;
+    }
+    
+    #imagens{
+        text-align: center;
+        
+    }
+    #Titulo{
+        color: rgb(255, 0, 0);
+        height: 100%;
+        width: 142%;
+        text-align: center;
+        
+    }
+    
+    
+    #body{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 142%;
+        text-align: center;
+    }
+    #pontuaçao,#record{
+        color: rgb(255, 0, 0);
+        height: 200px;
+        text-align: center;
+        font-size:50px;
+    
+    }
+    #responder{
+    text-align: center;
+    align-content: center;
+    }
+    #saida_pontuaçao{
+        text-align: left;
+        color: red;
+        font-size: 100px
+        
+    }
+    #div_pontuaçao{
+        background-color: rgb(0, 0, 0);
+        width: 50%;
+    }
+    #h1{
+        color: aliceblue;
+        font-size: 14px;
+    }
+#imagem1{
+    width: 200;
+    height: 200;
+}
+     #imagem2{
+         width: 370px;
+         height: 200px;
+     }
+
+     #imagem3meninas{
+         width: 450px;
+         height: 147px;
+     }
+
+
+}
+
+
+
+
+
+
+

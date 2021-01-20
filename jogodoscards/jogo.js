@@ -120,6 +120,10 @@ function verificar_resposta12(){
         }
 }  
 
+
+
+
+
 document.getElementById("saida_pontuaçao").textContent = ponto_atual 
 
 document.getElementById("saida_record") = ponto_atual
